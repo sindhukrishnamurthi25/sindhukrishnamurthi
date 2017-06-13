@@ -3,13 +3,12 @@ public class Sumofnumbers
 {
     public static void main(String args[])
     {
-        int i, n, sum=0, num;
+        int i, n, sum=0;
         Scanner scan = new Scanner(System.in);
 		 n = scan.nextInt();
-	    for(i=0; i<n; i++)
-        {
-            num = scan.nextInt();
-            sum = sum + num;
+	    for(i=1; i<=n; i++)
+	    {
+            sum = sum +i;
         }
 		 System.out.print(sum);
     }
