@@ -35,6 +35,6 @@ int main()
 {
     Point p1 = {10, 10}, p2 = {10, 20},
           p3 = {20, 20}, p4 = {20, 10};
-    isSquare(p1, p2, p3, p4)? cout << "Yes": cout << "No";
+    isSquare(p1, p2, p3, p4)? cout << "square": cout << "Not square";
     return 0;
 }
